@@ -44,15 +44,15 @@ Promise.race([
 
 
 
-// $.ajax('https://randomuser.me/api/',{
-//   method: 'GET',
-//   success: function(data){
-//     console.log(data)
-//   },
-//   error: function(error){
-//     console.log(error)
-//   }
-// })
+$.ajax('https://randomuser.me/api/sdfdsfdsfs', {
+  method: 'GET',
+  success: function(data) {
+    console.log(data)
+  },
+  error: function(error) {
+    console.log(error)
+  }
+})
 
 fetch('https://randomuser.me/api/dsfdsfsd')
   .then(function (response) {
@@ -82,7 +82,24 @@ fetch('https://randomuser.me/api/dsfdsfsd')
   const dramaList = await getData('https://yts.am/api/v2/list_movies.json?genre=drama')
   const animationList = await getData('https://yts.am/api/v2/list_movies.json?genre=animation')
   console.log(actionList, dramaList, animationList)
-
+  function videoItemTemplate(movie) {
+    return (
+      `<div class="primaryPlaylistItem">
+        <div class="primaryPlaylistItem-image">
+          <img src="${movie.medium_cover_image}">
+        </div>
+        <h4 class="primaryPlaylistItem-title">
+          ${movie.title}
+        </h4>
+      </div>`
+    )
+  }
+  // console.log(videoItemTemplate('src/images/covers/bitcoinjpg', 'bitcoin'));
+  actionList.data.movies.forEach((movie) => {
+    // debugger
+    const HTMLString = videoItemTemplate(movie);
+    console.log(HTMLString);
+  })
 
   const $actionContainer = document.querySelector('#action');
   const $dramaContainer = document.getElementById('#drama');
