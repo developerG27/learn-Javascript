@@ -3,9 +3,45 @@ const PEOPLE_URL = 'people/:id'
 
 const lukeUrl = `${API_URL}${PEOPLE_URL.replace(':id',1)}`
 const opts = {crossDomain: true}
-const onPeopleResponse = function (persona){
-  console.log(`Hola yo soy, ${persona.name}`)
+
+function obtenerPersonaje(id, callback){
+  const url = `${API_URL}${PEOPLE_URL.replace(':id',id)}`
+
+  $
+  .get(url, opts, callback)
+  .fail(() => {
+    console.log(`Sucediò un error. No se pudo obtener el personaje ${id}`)
+  })
 }
-$.get(lukeUrl, opts, onPeopleResponse)
+
+obtenerPersonaje(1, function(personaje){
+  console.log(`Hola, yo soy ${personaje.name}`)
+
+  obtenerPersonaje(2, function(personaje){
+    console.log(`Hola, yo soy ${personaje.name}`)
+
+    obtenerPersonaje(3,function(personaje){
+      console.log(`Hola, yo soy ${personaje.name}`)
+
+      obtenerPersonaje(4, function(personaje){
+        console.log(`Hola, yo soy ${personaje.name}`)
+
+        obtenerPersonaje(5, function(personaje){
+          console.log(`Hola, yo soy ${personaje.name}`)
+          
+          obtenerPersonaje(6, function(personaje){
+            console.log(`Hola, yo soy ${personaje.name}`)
+
+            obtenerPersonaje(7, function(personaje){
+              console.log(`Hola, yo soy ${personaje.name}`)
+            })
+          })
+        })
+      })
+    })
+  })
+
+})
+
 
 //CALLBACK https://platzi.com/clases/1339-fundamentos-javascript/12959-callbacks8214/

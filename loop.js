@@ -29,7 +29,6 @@ while(sacha.peso > META){
 }
 console.log(`Pasaron ${dias} dias hasta que ${sacha.nombre} adelgazo 3kg`)
 
-
 // for(var i = 1; i <= 365; i++){
 //   var random = Math.random()
 //   if(random < 0.25){
