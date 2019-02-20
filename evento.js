@@ -38,3 +38,37 @@ btn.addEventListener('mouseover',function(){
 btn.addEventListener('mouseout',function(){
     console.log('sei uscito')
 })
+
+
+//Eventi tastiera
+//Creiamo un input di tipo text e lo inseriamo nel body
+var inputText = document.createElement("INPUT")
+inputText.id ='input-text'
+inputText.type="text"
+document.body.appendChild(inputText)
+
+//Focus
+inputText.addEventListener('focus',function(){
+    console.log("sei dentro l'input")
+})
+
+//Blur
+inputText.addEventListener('blur',function(){
+    console.log("sei fuori dall'input")
+})
+
+//Key Down: quando premi in tasto in più grazie ai metodi aggiunti ci permette sapere quali tasti sono stati premuti
+inputText.addEventListener('keydown',function(event){
+    console.log("Hai premuto un tasto", String.fromCharCode(event.keyCode))
+})
+
+//Key press
+inputText.addEventListener('keypress',function(event){
+    console.log("Tasto premuto", String.fromCharCode(event.keyCode))
+})
+
+//Key up
+inputText.addEventListener('keyup',function(event){
+    console.log("Hai lasciato il tasto", String.fromCharCode(event.keyCode))
+})
+
