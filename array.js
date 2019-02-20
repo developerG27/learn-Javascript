@@ -148,3 +148,4 @@ linguaggi.find(function(linguaggio){
 })
 //Si può ridurre grazie alle arrow function
 linguaggi.find(linguaggio => linguaggio == 'Javascript')
+
