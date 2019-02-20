@@ -72,3 +72,25 @@ inputText.addEventListener('keyup',function(event){
     console.log("Hai lasciato il tasto", String.fromCharCode(event.keyCode))
 })
 
+
+//Eventi load
+window.addEventListener('load',function(){
+    console.log('Il DOM è stato caricato')
+    //Si inserisce tutto il contenuto di js
+})
+
+/*
+Gli eventi Timers ci permettono gestire il tempo in Javascript
+*/
+//La funzione si eseguirà ogni 1000 millesecondi => 1s
+var tempo = setInterval(function(){
+    console.log('Eseguito')
+},1000)
+
+//Si esegue una volta dopo 3 secondi
+var timeOut = setTimeout(function(){
+    console.log('Sono stato eseguito dopo 3 secondi')
+}, 3000)
+
+//Interrompere il timer, come parametro bisogna passargli la variabile che al suo interno ha il setInterval
+clearInterval(tempo)
