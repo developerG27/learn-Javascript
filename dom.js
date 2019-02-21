@@ -1,5 +1,11 @@
 /*
 DOM: document object model
+E' il padre di tutti i documenti
+Document
+    root (html)
+    head
+        title
+    body
  */
 //Crea un paragrafo nel document
 var paragrafo = document.createElement("p")
@@ -21,3 +27,4 @@ prompt()
 confirm()
 
 window.location.search //ritorna il query string
+
