@@ -94,3 +94,12 @@ var timeOut = setTimeout(function(){
 
 //Interrompere il timer, come parametro bisogna passargli la variabile che al suo interno ha il setInterval
 clearInterval(tempo)
+
+
+/*
+Event Bubbling: è un evento che ne richiama un altro
+*/
+
+/*
+Delegation:
+*/
