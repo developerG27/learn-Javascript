@@ -11,3 +11,13 @@ paragrafo.appendChild(node)
 var elementoCreato =  document.body.appendChild(paragrafo)
 //Cambia il colore del font al paragrafo
 elementoCreato.style.color= 'red'
+
+
+/*
+L'oggetto window al suo interno raccchiude tutto il dom
+*/
+
+prompt()
+confirm()
+
+window.location.search //ritorna il query string
