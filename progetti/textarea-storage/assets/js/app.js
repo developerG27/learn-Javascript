@@ -6,6 +6,9 @@ eventListener()
 function eventListener(){
     //l'elemento con id #formulario tiene traccia dell'evento submit
     document.querySelector('#formulario').addEventListener('submit',agregarTweet)
+
+    //eliminare tweet
+    listaTweets.addEventListener('click',borrarTweet)
 }
 
 //Function
@@ -32,4 +35,13 @@ function agregarTweet(e){
     li.appendChild(buttonDelate)
 
     console.log(tweet)
+}
+
+function borrarTweet(e){
+    e.preventDefault()
+    if(e.target.className === 'borrar-tweet'){
+        console.log(e.target.parentElement.remove())
+        console.log('Tweet Eliminato')
+    }
+    console.log('Hai fatto click alla lista')
 }
