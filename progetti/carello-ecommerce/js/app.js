@@ -59,6 +59,7 @@ function inserisciCarrello(corso){
         <td> <a href="#" class=" borrar-curso " data-id=" ${corso.id} "> X </a>
         `
     listaCorsi.appendChild(row)
+    salvareCorsiLocalStorage(corso)
 }
 
 //Elimina il corso dal carrello nel DOM
@@ -84,4 +85,28 @@ function resettareCarrello(){
         listaCorsi.removeChild(listaCorsi.firstChild)
     }
     return false
+}
+
+//Salva i corsi del carrello al Local Storage
+function salvareCorsiLocalStorage(corso){
+    let corsi
+    //Prende il valore di un array di dati con localStorage vuoto
+    corsi = ottenereCorsoLocalStorage()
+
+    //il corso selezionato si aggiunge all'array
+    corsi.push(corso)
+
+    localStorage.setItem('corsi',JSON.stringify(corsi))
+}
+
+//Controlliamo che ci siano elementi nel local Storage
+function ottenereCorsoLocalStorage(){
+    let corsiLocalStorage
+
+    //controlliamo se c'è qualcosa nel localStorage
+    if(localStorage.getItem('cursos') === null){
+        corsiLocalStorage = []
+    } else{
+        corsiLocalStorage = JSON.parse(localStorage.getItem('cursos'))
+    } return corsiLocalStorage
 }
