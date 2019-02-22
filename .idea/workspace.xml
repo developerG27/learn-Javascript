@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="971c59b8-2174-46b8-a05b-a4b3c39452b1" name="Default Changelist" comment="">
+    <list default="true" id="971c59b8-2174-46b8-a05b-a4b3c39452b1" name="Default Changelist" comment="Selezionare le varie card">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/progetti/carello-ecommerce/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/progetti/carello-ecommerce/js/app.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -15,34 +16,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripting.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="782">
-              <caret line="34" column="49" lean-forward="true" selection-start-line="34" selection-start-column="49" selection-end-line="34" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/progetti/textarea-storage/assets/js/app.js">
+        <entry file="file://$PROJECT_DIR$/progetti/carello-ecommerce/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="786">
-              <caret line="111" column="58" lean-forward="true" selection-start-line="111" selection-start-column="58" selection-end-line="111" selection-end-column="58" />
+            <state relative-caret-position="387">
+              <caret line="43" column="13" lean-forward="true" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/progetti/textarea-storage/assets/css/normalize.css">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/progetti/carello-ecommerce/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="46">
+              <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/progetti/textarea-storage/index.html">
+        <entry file="file://$PROJECT_DIR$/function-recursive.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="598">
-              <caret line="26" column="41" lean-forward="true" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
+            <state relative-caret-position="184">
+              <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -62,6 +58,7 @@
       <find>delateTwee</find>
       <find>L</find>
       <find>Local</find>
+      <find>lista</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -69,8 +66,8 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/try-catch.js" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/esercizi/intermedio/creare-input.js" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/scripting.js" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/esercizi/intermedio/creare-input.js" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/json.js" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/this.js" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/local-storage.js" root0="SKIP_HIGHLIGHTING" />
@@ -80,14 +77,14 @@
     <setting file="file://$PROJECT_DIR$/funzioni-matematiche.js" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/evento.js" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/clases.js" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/bom.js" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/dom.js" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/bom.js" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/esercizi/domande.md" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/iteratori.js" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/esercizi/semplici/array-numerico.js" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/array.js" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/progetti/carello-ecommerce/js/app.js" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/scope.js" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/progetti/university/js/app.js" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/funzioni-testo.js" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/closures.js" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/contesto-di-una-funzione.js" root0="SKIP_HIGHLIGHTING" />
@@ -127,12 +124,14 @@
         <option value="$PROJECT_DIR$/scripting.js" />
         <option value="$PROJECT_DIR$/evento.js" />
         <option value="$PROJECT_DIR$/progetti/textarea-storage/assets/js/app.js" />
+        <option value="$PROJECT_DIR$/progetti/carello-ecommerce/index.html" />
+        <option value="$PROJECT_DIR$/progetti/carello-ecommerce/js/app.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-7" />
-    <option name="width" value="1356" />
+    <option name="width" value="1216" />
     <option name="height" value="1167" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -158,29 +157,13 @@
               <item name="javascript" type="b2602c69:ProjectViewProjectNode" />
               <item name="javascript" type="462c0819:PsiDirectoryNode" />
               <item name="progetti" type="462c0819:PsiDirectoryNode" />
-              <item name="textarea-storage" type="462c0819:PsiDirectoryNode" />
+              <item name="carello-ecommerce" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="javascript" type="b2602c69:ProjectViewProjectNode" />
               <item name="javascript" type="462c0819:PsiDirectoryNode" />
               <item name="progetti" type="462c0819:PsiDirectoryNode" />
-              <item name="textarea-storage" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javascript" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javascript" type="462c0819:PsiDirectoryNode" />
-              <item name="progetti" type="462c0819:PsiDirectoryNode" />
-              <item name="textarea-storage" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javascript" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javascript" type="462c0819:PsiDirectoryNode" />
-              <item name="progetti" type="462c0819:PsiDirectoryNode" />
-              <item name="textarea-storage" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="carello-ecommerce" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -236,6 +219,7 @@
       <workItem from="1550653422723" duration="18861000" />
       <workItem from="1550680685646" duration="1707000" />
       <workItem from="1550736171442" duration="7830000" />
+      <workItem from="1550821996933" duration="1052000" />
     </task>
     <task id="LOCAL-00001" summary="Aggiunto nuovo materiale">
       <created>1550652496872</created>
@@ -405,17 +389,31 @@
       <option name="project" value="LOCAL" />
       <updated>1550763123638</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Aggiunto nuovo progetto: carrello - ecommerce">
+      <created>1550763363883</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1550763363883</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Selezionare le varie card">
+      <created>1550764147636</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1550764147636</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39410000" />
+    <option name="totallyTimeSpent" value="42953000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1356" height="1167" extended-state="0" />
+    <frame x="-7" y="0" width="1216" height="1167" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18209408" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20373514" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -426,7 +424,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.23697148" />
+      <window_info anchor="bottom" id="Version Control" order="8" visible="true" weight="0.2361111" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49807692" weight="0.2857143" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5019231" side_tool="true" weight="0.3263889" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -478,7 +476,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Aggiunto nuovo materiale" />
     <MESSAGE value="aggiunte proprieta bom.js" />
     <MESSAGE value="sezione evento" />
     <MESSAGE value="eventi tastiera" />
@@ -502,18 +499,11 @@
     <MESSAGE value="evento" />
     <MESSAGE value="Aggiunto progetto textarea" />
     <MESSAGE value="textarea collegato al local storage" />
-    <option name="LAST_COMMIT_MESSAGE" value="textarea collegato al local storage" />
+    <MESSAGE value="Aggiunto nuovo progetto: carrello - ecommerce" />
+    <MESSAGE value="Selezionare le varie card" />
+    <option name="LAST_COMMIT_MESSAGE" value="Selezionare le varie card" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/storia.md" />
-    <entry file="file://$PROJECT_DIR$/switch.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/promise-multiple.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-654" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/prototipi.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -522,9 +512,6 @@
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/function-recursive.js">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/dati-primitivi.md" />
     <entry file="file://$PROJECT_DIR$/condizionale.js">
@@ -742,24 +729,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/progetti/university/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/progetti/university/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="2" selection-start-line="3" selection-end-line="7" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/progetti/university/index.html" />
+    <entry file="file://$PROJECT_DIR$/progetti/university/js/app.js" />
     <entry file="file://$PROJECT_DIR$/scripting.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="782">
-          <caret line="34" column="49" lean-forward="true" selection-start-line="34" selection-start-column="49" selection-end-line="34" selection-end-column="49" />
+          <caret line="34" column="49" selection-start-line="34" selection-start-column="49" selection-end-line="34" selection-end-column="49" />
         </state>
       </provider>
     </entry>
@@ -799,14 +774,42 @@
     <entry file="file://$PROJECT_DIR$/progetti/textarea-storage/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="598">
-          <caret line="26" column="41" lean-forward="true" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
+          <caret line="26" column="41" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/progetti/textarea-storage/assets/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="786">
-          <caret line="111" column="58" lean-forward="true" selection-start-line="111" selection-start-column="58" selection-end-line="111" selection-end-column="58" />
+        <state relative-caret-position="326">
+          <caret line="91" column="11" lean-forward="true" selection-start-line="91" selection-start-column="11" selection-end-line="91" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Sending email with PHP- from Basic to AdvancedDave Hollingworth4,8(111)Prezzo attuale11,99 €Prezzo originale39,99 €.url">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/function-recursive.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/progetti/carello-ecommerce/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/progetti/carello-ecommerce/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="43" column="13" lean-forward="true" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
         </state>
       </provider>
     </entry>

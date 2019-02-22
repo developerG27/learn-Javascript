@@ -1,6 +1,7 @@
 //Variabili
 const carrello = document.getElementById('carrito')
 const corsi = document.getElementById('lista-cursos')
+const listaCorsi = document.querySelector('#lista-carrito tbody')
 
 //Listener
 caricareEventiListener()
@@ -24,6 +25,28 @@ function comprareCorso(e){
     }
 }
 
+//Legge i dati del corso
 function leggereDatiCorso(corso){
-    console.log(corso)
+    const infoCorso = {
+        immagine: corso.querySelector('img').src,
+        titolo: corso.querySelector('h4').textContent,
+        prezzo: corso.querySelector('.precio span').textContent,
+        id: corso.querySelector('a').getAttribute('data-attribute')
+    }
+
+    inserisciCarrello(infoCorso)
+}
+
+//Mostra il corso selezionato nel carrello
+function inserisciCarrello(corso){
+    const row = document.createElement('tr')
+    row.innerHTML = `
+        <td> 
+          <img src=" ${corso.immagine} ">
+        </td>
+        <td> ${corso.titolo} </td>
+        <td>${corso.prezzo}</td>
+        <td> <a href="#" class=" borrar-curso " data-id=" ${corso.id} "> X </a>
+        `
+    listaCorsi.appendChild(row)
 }
