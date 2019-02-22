@@ -7,7 +7,6 @@ const formularioEnviar = document.getElementById('enviar-mail');
 const resetBtn = document.getElementById('resetBtn');
 
 // event Listener
-
 eventListeners();
 
 function eventListeners() {
@@ -27,14 +26,13 @@ function eventListeners() {
 }
 
 
-
 // funciones
 function inicioApp() {
      // deshabilitar el envio
      btnEnviar.disabled = true;
 }
-// Valida que el campo tengo algo escrito
 
+// Valida que el campo tengo algo escrito
 function validarCampo() {
     
      // Se valida la longitud del texto y que no este vacio

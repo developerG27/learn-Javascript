@@ -32,7 +32,3 @@ class Desarollador extends Persona{
 // var sacha = new Persona('Sacha', 'Lifszyc',1.72)
 // var erika = new Persona('Erika', 'Luna',1.62)
 // var arturo = new Desarollador('Arturo', 'Martinez',2.0)
-
-
-/*
-*/

@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="971c59b8-2174-46b8-a05b-a4b3c39452b1" name="Default Changelist" comment="Inizio progetto validazione email">
+    <list default="true" id="971c59b8-2174-46b8-a05b-a4b3c39452b1" name="Default Changelist" comment="iniz">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clases.js" beforeDir="false" afterPath="$PROJECT_DIR$/clases.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/progetti/validazione-form/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/progetti/validazione-form/js/app.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -19,7 +20,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/progetti/carello-ecommerce/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
+            <state relative-caret-position="-7">
               <caret line="155" column="37" selection-start-line="155" selection-start-column="37" selection-end-line="155" selection-end-column="37" />
             </state>
           </provider>
@@ -34,11 +35,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/progetti/validazione-form/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="39" column="4" lean-forward="true" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
+            <state relative-caret-position="644">
+              <caret line="28" column="74" selection-start-line="28" selection-start-column="74" selection-end-line="28" selection-end-column="74" />
             </state>
           </provider>
         </entry>
@@ -46,8 +47,41 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/progetti/validazione-form/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="855">
-              <caret line="59" column="24" lean-forward="true" selection-start-line="59" selection-start-column="24" selection-end-line="59" selection-end-column="24" />
+            <state relative-caret-position="253">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/prototipi.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="22" column="51" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/clases.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="20" column="35" lean-forward="true" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oggetto.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="203">
+              <caret line="50" column="18" selection-start-line="50" selection-start-column="18" selection-end-line="50" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -55,7 +89,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/progetti/textarea-storage/assets/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
+            <state relative-caret-position="-7">
               <caret line="92" column="59" selection-start-line="92" selection-start-column="59" selection-end-line="92" selection-end-column="59" />
             </state>
           </provider>
@@ -94,6 +128,8 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/scripting.js" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/dom.js" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/prototipi.js" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/oggetto.js" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/array.js" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/scope.js" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/progetti/validazione-form/js/app.js" root0="SKIP_HIGHLIGHTING" />
@@ -155,12 +191,14 @@
         <option value="$PROJECT_DIR$/progetti/carello-ecommerce/index.html" />
         <option value="$PROJECT_DIR$/progetti/carello-ecommerce/js/app.js" />
         <option value="$PROJECT_DIR$/progetti/validazione-form/js/app.js" />
+        <option value="$PROJECT_DIR$/oggetto.js" />
+        <option value="$PROJECT_DIR$/clases.js" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
-    <option name="width" value="1275" />
+    <option name="width" value="1308" />
     <option name="height" value="1167" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -182,19 +220,6 @@
               <item name="javascript" type="462c0819:PsiDirectoryNode" />
               <item name="progetti" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="javascript" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javascript" type="462c0819:PsiDirectoryNode" />
-              <item name="progetti" type="462c0819:PsiDirectoryNode" />
-              <item name="validazione-form" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javascript" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javascript" type="462c0819:PsiDirectoryNode" />
-              <item name="progetti" type="462c0819:PsiDirectoryNode" />
-              <item name="validazione-form" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -204,7 +229,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.HTML" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -460,17 +485,31 @@
       <option name="project" value="LOCAL" />
       <updated>1550826300207</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Completata validazione">
+      <created>1550828016721</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1550828016721</updated>
+    </task>
+    <task id="LOCAL-00032" summary="aggiunto materiale oggetti">
+      <created>1550829462424</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1550829462424</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46060000" />
+    <option name="totallyTimeSpent" value="49508000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1275" height="1167" extended-state="0" />
+    <frame x="-7" y="0" width="1308" height="1167" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19401778" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23070866" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -481,7 +520,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.2361111" />
+      <window_info anchor="bottom" id="Version Control" order="8" visible="true" weight="0.2361111" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49807692" weight="0.2857143" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5019231" side_tool="true" weight="0.3263889" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -533,8 +572,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Esercizio intermedio" />
-    <MESSAGE value="Inserita sezione Json" />
     <MESSAGE value="Local storage" />
     <MESSAGE value="introdotto fetch" />
     <MESSAGE value="commenti fetch" />
@@ -558,23 +595,11 @@
     <MESSAGE value="logica eliminazione dal carrello" />
     <MESSAGE value="eliminazione dal local Storage" />
     <MESSAGE value="Inizio progetto validazione email" />
-    <option name="LAST_COMMIT_MESSAGE" value="Inizio progetto validazione email" />
+    <MESSAGE value="Completata validazione" />
+    <MESSAGE value="aggiunto materiale oggetti" />
+    <option name="LAST_COMMIT_MESSAGE" value="aggiunto materiale oggetti" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/condizionale.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/caratteristiche.md" />
-    <entry file="file://$PROJECT_DIR$/bom.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/json.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="552">
@@ -721,16 +746,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/clases.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/esercizi/semplici/giorni-passati-dalla-nascita.html">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -834,7 +849,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/progetti/textarea-storage/assets/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
+        <state relative-caret-position="-7">
           <caret line="92" column="59" selection-start-line="92" selection-start-column="59" selection-end-line="92" selection-end-column="59" />
         </state>
       </provider>
@@ -848,7 +863,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/progetti/carello-ecommerce/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
+        <state relative-caret-position="-7">
           <caret line="155" column="37" selection-start-line="155" selection-start-column="37" selection-end-line="155" selection-end-column="37" />
         </state>
       </provider>
@@ -860,17 +875,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/progetti/validazione-form/js/app.js">
+    <entry file="file://$PROJECT_DIR$/progetti/validazione-form/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="59" column="24" lean-forward="true" selection-start-line="59" selection-start-column="24" selection-end-line="59" selection-end-column="24" />
+        <state relative-caret-position="644">
+          <caret line="28" column="74" selection-start-line="28" selection-start-column="74" selection-end-line="28" selection-end-column="74" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/progetti/validazione-form/index.html">
+    <entry file="file://$PROJECT_DIR$/oggetto.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="39" column="4" lean-forward="true" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
+        <state relative-caret-position="203">
+          <caret line="50" column="18" selection-start-line="50" selection-start-column="18" selection-end-line="50" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/progetti/validazione-form/js/materialize.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="5" column="846" selection-start-line="5" selection-start-column="846" selection-end-line="5" selection-end-column="846" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/progetti/validazione-form/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prototipi.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="22" column="51" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clases.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="20" column="35" lean-forward="true" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
