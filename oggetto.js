@@ -1,3 +1,15 @@
+/*
+Classe: definisce le caratteristiche di un oggetto
+Oggetto: E' un instanza di una classe
+Proprietà: Una caratteristica di un oggetto
+Metodo: una capacità di un oggetto
+Constructor: E' un metodo di una classse e si richiama quando vogliamo creare un instanza
+Ereditarietà: Una classe può eredare caratteristiche di un altra classe
+Incapsulamento: Una classe definisce le caratteristiche di un oggetto, un metodo define solo come viene eseguito il metodo
+Astrazione:
+Polimorfismo: Differenti classi potrebbero avere gli stessi metodi
+*/
+
 var sacha = {
   nombre: 'Sacha',
   apellido: 'Lifszyc',

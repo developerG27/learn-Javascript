@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="971c59b8-2174-46b8-a05b-a4b3c39452b1" name="Default Changelist" comment="iniz">
+    <list default="true" id="971c59b8-2174-46b8-a05b-a4b3c39452b1" name="Default Changelist" comment="Aggiunto progetto che calcola l'assicurazione dell'auto">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clases.js" beforeDir="false" afterPath="$PROJECT_DIR$/clases.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetti/validazione-form/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/progetti/validazione-form/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oggetto.js" beforeDir="false" afterPath="$PROJECT_DIR$/oggetto.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/progetti/prezzo-assicurazione-auto/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/progetti/prezzo-assicurazione-auto/js/app.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,18 +18,9 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/progetti/carello-ecommerce/js/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7">
-              <caret line="155" column="37" selection-start-line="155" selection-start-column="37" selection-end-line="155" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/progetti/carello-ecommerce/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
+            <state relative-caret-position="644">
               <caret line="28" column="33" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
             </state>
           </provider>
@@ -47,7 +38,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/progetti/validazione-form/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
+            <state relative-caret-position="322">
               <caret line="14" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
@@ -56,7 +47,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/prototipi.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
+            <state relative-caret-position="414">
               <caret line="22" column="51" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
@@ -65,11 +56,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/clases.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="20" column="35" lean-forward="true" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+            <state relative-caret-position="598">
+              <caret line="26" column="67" selection-start-line="25" selection-start-column="12" selection-end-line="26" selection-end-column="67" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -78,10 +69,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/progetti/prezzo-assicurazione-auto/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="574">
+              <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="82" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/progetti/prezzo-assicurazione-auto/js/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3380">
+              <caret line="152" column="22" lean-forward="true" selection-start-line="152" selection-start-column="22" selection-end-line="152" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/oggetto.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="50" column="18" selection-start-line="50" selection-start-column="18" selection-end-line="50" selection-end-column="18" />
+            <state relative-caret-position="644">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -89,7 +101,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/progetti/textarea-storage/assets/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7">
+            <state relative-caret-position="2116">
               <caret line="92" column="59" selection-start-line="92" selection-start-column="59" selection-end-line="92" selection-end-column="59" />
             </state>
           </provider>
@@ -128,6 +140,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/scripting.js" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/dom.js" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/progetti/prezzo-assicurazione-auto/js/app.js" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/prototipi.js" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/oggetto.js" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/array.js" root0="SKIP_HIGHLIGHTING" />
@@ -191,14 +204,16 @@
         <option value="$PROJECT_DIR$/progetti/carello-ecommerce/index.html" />
         <option value="$PROJECT_DIR$/progetti/carello-ecommerce/js/app.js" />
         <option value="$PROJECT_DIR$/progetti/validazione-form/js/app.js" />
-        <option value="$PROJECT_DIR$/oggetto.js" />
         <option value="$PROJECT_DIR$/clases.js" />
+        <option value="$PROJECT_DIR$/progetti/prezzo-assicurazione-auto/index.html" />
+        <option value="$PROJECT_DIR$/progetti/prezzo-assicurazione-auto/js/app.js" />
+        <option value="$PROJECT_DIR$/oggetto.js" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-7" />
-    <option name="width" value="1308" />
+    <option name="width" value="1191" />
     <option name="height" value="1167" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -220,6 +235,19 @@
               <item name="javascript" type="462c0819:PsiDirectoryNode" />
               <item name="progetti" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="javascript" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javascript" type="462c0819:PsiDirectoryNode" />
+              <item name="progetti" type="462c0819:PsiDirectoryNode" />
+              <item name="prezzo-assicurazione-auto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javascript" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javascript" type="462c0819:PsiDirectoryNode" />
+              <item name="progetti" type="462c0819:PsiDirectoryNode" />
+              <item name="prezzo-assicurazione-auto" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -229,7 +257,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.HTML" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -274,6 +302,7 @@
       <workItem from="1550680685646" duration="1707000" />
       <workItem from="1550736171442" duration="7830000" />
       <workItem from="1550821996933" duration="2066000" />
+      <workItem from="1550831990711" duration="1991000" />
     </task>
     <task id="LOCAL-00001" summary="Aggiunto nuovo materiale">
       <created>1550652496872</created>
@@ -503,13 +532,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49508000" />
+    <option name="totallyTimeSpent" value="51847000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1308" height="1167" extended-state="0" />
+    <frame x="-7" y="0" width="1191" height="1167" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23070866" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16999133" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -520,7 +549,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" visible="true" weight="0.2361111" />
+      <window_info anchor="bottom" id="Version Control" order="8" visible="true" weight="0.23313493" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49807692" weight="0.2857143" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5019231" side_tool="true" weight="0.3263889" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -572,7 +601,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Local storage" />
     <MESSAGE value="introdotto fetch" />
     <MESSAGE value="commenti fetch" />
     <MESSAGE value="inserito modulo date.js" />
@@ -597,22 +625,10 @@
     <MESSAGE value="Inizio progetto validazione email" />
     <MESSAGE value="Completata validazione" />
     <MESSAGE value="aggiunto materiale oggetti" />
-    <option name="LAST_COMMIT_MESSAGE" value="aggiunto materiale oggetti" />
+    <MESSAGE value="Aggiunto progetto che calcola l'assicurazione dell'auto" />
+    <option name="LAST_COMMIT_MESSAGE" value="Aggiunto progetto che calcola l'assicurazione dell'auto" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/json.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/this.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/funzioni.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -847,30 +863,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/progetti/textarea-storage/assets/js/app.js">
+    <entry file="file://$PROJECT_DIR$/progetti/validazione-form/js/materialize.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="92" column="59" selection-start-line="92" selection-start-column="59" selection-end-line="92" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/progetti/textarea-storage/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+        <state relative-caret-position="161">
+          <caret line="5" column="846" selection-start-line="5" selection-start-column="846" selection-end-line="5" selection-end-column="846" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/progetti/carello-ecommerce/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
+        <state relative-caret-position="3565">
           <caret line="155" column="37" selection-start-line="155" selection-start-column="37" selection-end-line="155" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/progetti/carello-ecommerce/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
+        <state relative-caret-position="644">
           <caret line="28" column="33" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
         </state>
       </provider>
@@ -882,30 +891,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/oggetto.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="50" column="18" selection-start-line="50" selection-start-column="18" selection-end-line="50" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/progetti/validazione-form/js/materialize.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="5" column="846" selection-start-line="5" selection-start-column="846" selection-end-line="5" selection-end-column="846" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/progetti/validazione-form/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
+        <state relative-caret-position="322">
           <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/prototipi.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
+        <state relative-caret-position="414">
           <caret line="22" column="51" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
@@ -913,10 +908,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/progetti/textarea-storage/assets/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2116">
+          <caret line="92" column="59" selection-start-line="92" selection-start-column="59" selection-end-line="92" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/progetti/textarea-storage/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/clases.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="20" column="35" lean-forward="true" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+        <state relative-caret-position="598">
+          <caret line="26" column="67" selection-start-line="25" selection-start-column="12" selection-end-line="26" selection-end-column="67" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/progetti/prezzo-assicurazione-auto/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="574">
+          <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/progetti/prezzo-assicurazione-auto/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3380">
+          <caret line="152" column="22" lean-forward="true" selection-start-line="152" selection-start-column="22" selection-end-line="152" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oggetto.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
