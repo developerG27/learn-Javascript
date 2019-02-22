@@ -5,50 +5,50 @@
 ## Storia
 
 ## Variabili
--tipologia
+- tipologia
 
 
 ## Operatori
 
 ## Array
--metodi
+- metodi
 
 ## Condizionali
--if
--else if
--switch
+- if
+- else if
+- switch
 
 ## Ciclo
--for
--while
--do-while
+- for
+- while
+- do-while
 
 ## Funzioni
--arrow function - funzioni a freccia
--this
--Scope
+- arrow function (funzioni a freccia)
+- this
+- scope
 
 ## DOM
--bom
+- bom
 
 ## Eventi
 
 ## Oggetti
--destructuring
+- destructuring
 
 ## Classi
--prototipo
+- prototipo
 
 ## Json
 
 ## Local Storage
 
 ## asincronismo
--ajax
--fetch
--callback
--promesse
--async Await
+- ajax
+- fetch
+- callback
+- promesse
+- async Await
 
 
 Differenze tra let e var cost
@@ -120,13 +120,13 @@ Esistono due tipologie di commenti in Javascript:
 Javascript è un linguaggio interpretato
 
 E' debolmente tipicizzato
-Quando dichiariamo una variabile non cìè bisogno di specificare il tipo di dato
+Quando dichiariamo una variabile non cè bisogno di specificare il tipo di dato
 
 Javascript è molto semplice da imparare, ma la sua completa padronanza è più difficile rispetto ad altri linguaggi
 
 
 
 
-link
-https://github.com/getify/You-Dont-Know-JS/blob/master/preface.md
-https://github.com/getify/You-Dont-Know-JS/blob/master/up%20%26%20going/ch1.md
+# Link di referenza 
+- https://github.com/getify/You-Dont-Know-JS/blob/master/preface.md 
+- https://github.com/getify/You-Dont-Know-JS/blob/master/up%20%26%20going/ch1.md
