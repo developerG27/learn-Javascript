@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="971c59b8-2174-46b8-a05b-a4b3c39452b1" name="Default Changelist" comment="">
+    <list default="true" id="971c59b8-2174-46b8-a05b-a4b3c39452b1" name="Default Changelist" comment="Inizio progetto validazione email">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progetti/carello-ecommerce/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/progetti/carello-ecommerce/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/progetti/validazione-form/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/progetti/validazione-form/js/app.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,11 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/progetti/carello-ecommerce/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="168" column="31" lean-forward="true" selection-start-line="168" selection-start-column="31" selection-end-line="168" selection-end-column="31" />
+            <state relative-caret-position="176">
+              <caret line="155" column="37" selection-start-line="155" selection-start-column="37" selection-end-line="155" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -28,8 +28,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/progetti/carello-ecommerce/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+            <state relative-caret-position="368">
+              <caret line="28" column="33" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/progetti/validazione-form/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="211">
+              <caret line="39" column="4" lean-forward="true" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/progetti/validazione-form/js/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="855">
+              <caret line="59" column="24" lean-forward="true" selection-start-line="59" selection-start-column="24" selection-end-line="59" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -38,7 +56,7 @@
         <entry file="file://$PROJECT_DIR$/progetti/textarea-storage/assets/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="349">
-              <caret line="92" column="59" lean-forward="true" selection-start-line="92" selection-start-column="59" selection-end-line="92" selection-end-column="59" />
+              <caret line="92" column="59" selection-start-line="92" selection-start-column="59" selection-end-line="92" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -47,7 +65,7 @@
         <entry file="file://$PROJECT_DIR$/progetti/textarea-storage/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="322">
-              <caret line="14" column="31" lean-forward="true" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+              <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -74,8 +92,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/try-catch.js" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/scripting.js" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/dom.js" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/array.js" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/scope.js" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/progetti/validazione-form/js/app.js" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/funzioni-testo.js" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/closures.js" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/contesto-di-una-funzione.js" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/try-catch.js" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/esercizi/intermedio/creare-input.js" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/json.js" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/this.js" root0="SKIP_HIGHLIGHTING" />
@@ -86,17 +111,11 @@
     <setting file="file://$PROJECT_DIR$/funzioni-matematiche.js" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/evento.js" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/clases.js" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/dom.js" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/bom.js" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/esercizi/domande.md" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/iteratori.js" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/esercizi/semplici/array-numerico.js" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/array.js" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/progetti/carello-ecommerce/js/app.js" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/scope.js" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/funzioni-testo.js" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/closures.js" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/contesto-di-una-funzione.js" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/progetti/textarea-storage/assets/js/app.js" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -135,12 +154,13 @@
         <option value="$PROJECT_DIR$/progetti/textarea-storage/assets/js/app.js" />
         <option value="$PROJECT_DIR$/progetti/carello-ecommerce/index.html" />
         <option value="$PROJECT_DIR$/progetti/carello-ecommerce/js/app.js" />
+        <option value="$PROJECT_DIR$/progetti/validazione-form/js/app.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-7" />
-    <option name="width" value="1284" />
+    <option name="width" value="1275" />
     <option name="height" value="1167" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -166,13 +186,13 @@
               <item name="javascript" type="b2602c69:ProjectViewProjectNode" />
               <item name="javascript" type="462c0819:PsiDirectoryNode" />
               <item name="progetti" type="462c0819:PsiDirectoryNode" />
-              <item name="carello-ecommerce" type="462c0819:PsiDirectoryNode" />
+              <item name="validazione-form" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="javascript" type="b2602c69:ProjectViewProjectNode" />
               <item name="javascript" type="462c0819:PsiDirectoryNode" />
               <item name="progetti" type="462c0819:PsiDirectoryNode" />
-              <item name="carello-ecommerce" type="462c0819:PsiDirectoryNode" />
+              <item name="validazione-form" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -426,17 +446,31 @@
       <option name="project" value="LOCAL" />
       <updated>1550823643014</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="eliminazione dal local Storage">
+      <created>1550826106692</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1550826106692</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Inizio progetto validazione email">
+      <created>1550826300207</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1550826300207</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44058000" />
+    <option name="totallyTimeSpent" value="46060000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1284" height="1167" extended-state="0" />
+    <frame x="-7" y="0" width="1275" height="1167" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19261637" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19401778" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -448,7 +482,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.2361111" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49807692" visible="true" weight="0.2857143" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49807692" weight="0.2857143" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5019231" side_tool="true" weight="0.3263889" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -499,8 +533,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="eventi tastiera" />
-    <MESSAGE value="eventi load e timers" />
     <MESSAGE value="Esercizio intermedio" />
     <MESSAGE value="Inserita sezione Json" />
     <MESSAGE value="Local storage" />
@@ -524,19 +556,11 @@
     <MESSAGE value="Selezionare le varie card" />
     <MESSAGE value="leggere dati e mostrare il contenuto" />
     <MESSAGE value="logica eliminazione dal carrello" />
-    <option name="LAST_COMMIT_MESSAGE" value="logica eliminazione dal carrello" />
+    <MESSAGE value="eliminazione dal local Storage" />
+    <MESSAGE value="Inizio progetto validazione email" />
+    <option name="LAST_COMMIT_MESSAGE" value="Inizio progetto validazione email" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/prototipi.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dati-primitivi.md" />
     <entry file="file://$PROJECT_DIR$/condizionale.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -811,28 +835,42 @@
     <entry file="file://$PROJECT_DIR$/progetti/textarea-storage/assets/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="349">
-          <caret line="92" column="59" lean-forward="true" selection-start-line="92" selection-start-column="59" selection-end-line="92" selection-end-column="59" />
+          <caret line="92" column="59" selection-start-line="92" selection-start-column="59" selection-end-line="92" selection-end-column="59" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/progetti/textarea-storage/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
-          <caret line="14" column="31" lean-forward="true" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/progetti/carello-ecommerce/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/progetti/carello-ecommerce/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="168" column="31" lean-forward="true" selection-start-line="168" selection-start-column="31" selection-end-line="168" selection-end-column="31" />
+        <state relative-caret-position="176">
+          <caret line="155" column="37" selection-start-line="155" selection-start-column="37" selection-end-line="155" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/progetti/carello-ecommerce/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="28" column="33" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/progetti/validazione-form/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="59" column="24" lean-forward="true" selection-start-line="59" selection-start-column="24" selection-end-line="59" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/progetti/validazione-form/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="39" column="4" lean-forward="true" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
         </state>
       </provider>
     </entry>
