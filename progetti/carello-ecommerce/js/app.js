@@ -9,6 +9,10 @@ caricareEventiListener()
 function caricareEventiListener(){
     //Parte quando si fa click in 'Aggiungi al carrello'
     corsi.addEventListener('click',comprareCorso)
+
+
+    //Quando si elimina un corso dal carrello
+    carrello.addEventListener('click',eliminareCorso)
 }
 
 //Funzioni
@@ -27,19 +31,24 @@ function comprareCorso(e){
 
 //Legge i dati del corso
 function leggereDatiCorso(corso){
+    //Creo un oggetto estrapolando i dati dal DOM
     const infoCorso = {
+        //Src dell'immagine
         immagine: corso.querySelector('img').src,
+        //IL contenuto dell'h4
         titolo: corso.querySelector('h4').textContent,
+        //il contenuto dello span all'interno di .precio
         prezzo: corso.querySelector('.precio span').textContent,
         id: corso.querySelector('a').getAttribute('data-attribute')
     }
-
     inserisciCarrello(infoCorso)
 }
 
 //Mostra il corso selezionato nel carrello
 function inserisciCarrello(corso){
+    //crea un tr
     const row = document.createElement('tr')
+    //al tr gli aggiunge un template string con l'oggetto creato precedentemene
     row.innerHTML = `
         <td> 
           <img src=" ${corso.immagine} ">
@@ -49,4 +58,16 @@ function inserisciCarrello(corso){
         <td> <a href="#" class=" borrar-curso " data-id=" ${corso.id} "> X </a>
         `
     listaCorsi.appendChild(row)
+}
+
+//Elimina il corso dal carrello nel DOM
+function eliminareCorso(e){
+    e.preventDefault()
+
+    let corso
+    //se quello che clicchiamo contiene la classe borrar-curso
+    if(e.target.classList.contains('borrar-curso')){
+        //elemento cliccato, il padre, il padre, rimosso
+        e.target.parentElement.parentElement.remove()
+    }
 }
