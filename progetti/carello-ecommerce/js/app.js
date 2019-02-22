@@ -2,6 +2,7 @@
 const carrello = document.getElementById('carrito')
 const corsi = document.getElementById('lista-cursos')
 const listaCorsi = document.querySelector('#lista-carrito tbody')
+const resettareCarrelloBtn = document.getElementById('vaciar-carrito')
 
 //Listener
 caricareEventiListener()
@@ -9,10 +10,10 @@ caricareEventiListener()
 function caricareEventiListener(){
     //Parte quando si fa click in 'Aggiungi al carrello'
     corsi.addEventListener('click',comprareCorso)
-
-
     //Quando si elimina un corso dal carrello
     carrello.addEventListener('click',eliminareCorso)
+    //Resettare carrello
+    resettareCarrelloBtn.addEventListener('click',resettareCarrello)
 }
 
 //Funzioni
@@ -70,4 +71,17 @@ function eliminareCorso(e){
         //elemento cliccato, il padre, il padre, rimosso
         e.target.parentElement.parentElement.remove()
     }
+}
+
+//Elimina tutti i corsi all'interno del carrello
+function resettareCarrello(){
+    //Primo modo : non consigliato
+    //listaCorsi.innerHTML = ''
+    //return false
+
+    //Secondo modo: raccomandato
+    while(listaCorsi.firstChild){
+        listaCorsi.removeChild(listaCorsi.firstChild)
+    }
+    return false
 }

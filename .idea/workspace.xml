@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="971c59b8-2174-46b8-a05b-a4b3c39452b1" name="Default Changelist" comment="Selezionare le varie card">
+    <list default="true" id="971c59b8-2174-46b8-a05b-a4b3c39452b1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/progetti/carello-ecommerce/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/progetti/carello-ecommerce/js/app.js" afterDir="false" />
     </list>
@@ -19,8 +19,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/progetti/carello-ecommerce/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="387">
-              <caret line="43" column="13" lean-forward="true" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+            <state relative-caret-position="663">
+              <caret line="85" column="16" lean-forward="true" selection-start-line="85" selection-start-column="16" selection-end-line="85" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -131,7 +131,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-7" />
-    <option name="width" value="1216" />
+    <option name="width" value="1284" />
     <option name="height" value="1167" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -219,7 +219,7 @@
       <workItem from="1550653422723" duration="18861000" />
       <workItem from="1550680685646" duration="1707000" />
       <workItem from="1550736171442" duration="7830000" />
-      <workItem from="1550821996933" duration="1052000" />
+      <workItem from="1550821996933" duration="2066000" />
     </task>
     <task id="LOCAL-00001" summary="Aggiunto nuovo materiale">
       <created>1550652496872</created>
@@ -403,17 +403,31 @@
       <option name="project" value="LOCAL" />
       <updated>1550764147636</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="leggere dati e mostrare il contenuto">
+      <created>1550823073338</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1550823073338</updated>
+    </task>
+    <task id="LOCAL-00028" summary="logica eliminazione dal carrello">
+      <created>1550823643014</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1550823643014</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42953000" />
+    <option name="totallyTimeSpent" value="43967000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1216" height="1167" extended-state="0" />
+    <frame x="-7" y="0" width="1284" height="1167" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20373514" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19261637" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -476,8 +490,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="aggiunte proprieta bom.js" />
-    <MESSAGE value="sezione evento" />
     <MESSAGE value="eventi tastiera" />
     <MESSAGE value="eventi load e timers" />
     <MESSAGE value="Esercizio intermedio" />
@@ -501,7 +513,9 @@
     <MESSAGE value="textarea collegato al local storage" />
     <MESSAGE value="Aggiunto nuovo progetto: carrello - ecommerce" />
     <MESSAGE value="Selezionare le varie card" />
-    <option name="LAST_COMMIT_MESSAGE" value="Selezionare le varie card" />
+    <MESSAGE value="leggere dati e mostrare il contenuto" />
+    <MESSAGE value="logica eliminazione dal carrello" />
+    <option name="LAST_COMMIT_MESSAGE" value="logica eliminazione dal carrello" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/prototipi.js">
@@ -808,8 +822,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/progetti/carello-ecommerce/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="43" column="13" lean-forward="true" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+        <state relative-caret-position="663">
+          <caret line="85" column="16" lean-forward="true" selection-start-line="85" selection-start-column="16" selection-end-line="85" selection-end-column="16" />
         </state>
       </provider>
     </entry>
