@@ -1,5 +1,54 @@
-#Javascript  6h 34min
+# Documentazione Javascript 
 
+## Introduzione
+
+## Storia
+
+## Variabili
+-tipologia
+
+
+## Operatori
+
+## Array
+-metodi
+
+## Condizionali
+-if
+-else if
+-switch
+
+## Ciclo
+-for
+-while
+-do-while
+
+## Funzioni
+-arrow function - funzioni a freccia
+-this
+-Scope
+
+## DOM
+-bom
+
+## Eventi
+
+## Oggetti
+-destructuring
+
+## Classi
+-prototipo
+
+## Json
+
+## Local Storage
+
+## asincronismo
+-ajax
+-fetch
+-callback
+-promesse
+-async Await
 
 
 Differenze tra let e var cost
