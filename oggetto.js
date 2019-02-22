@@ -44,3 +44,24 @@ function compleanos(persona){
 }
 
 compleanos(sacha)
+
+
+//Secondo esempio
+function Cliente(nome, saldo){
+  this.nome = nome
+  this.saldo = saldo
+  this.tipoCliente = function(anni){
+    let tipo
+    if(this.tipo > 1000){
+      tipo = 'Gold'
+    } else if(this.saldo > 500){
+      tipo = 'Argento'
+    } else{
+      tipo = 'Normale'
+    }
+    return tipo
+  }
+}
+
+const persona = new Cliente('Gian', 3000)
+const persona2 = new Cliente('Sabrina',1000)
