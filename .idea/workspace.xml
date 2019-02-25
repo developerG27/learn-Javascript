@@ -1,23 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="971c59b8-2174-46b8-a05b-a4b3c39452b1" name="Default Changelist" comment="Progetto assicurazione completato">
+    <list default="true" id="971c59b8-2174-46b8-a05b-a4b3c39452b1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arrow-function.js" beforeDir="false" afterPath="$PROJECT_DIR$/arrow-function.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asincronismo.js" beforeDir="false" afterPath="$PROJECT_DIR$/asincronismo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/async-await.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bom.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/callback.js" beforeDir="false" afterPath="$PROJECT_DIR$/callback.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/callback2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clases.js" beforeDir="false" afterPath="$PROJECT_DIR$/class.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/closures.js" beforeDir="false" afterPath="$PROJECT_DIR$/closures.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comparazione.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contesto-di-una-funzione.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dom.js" beforeDir="false" afterPath="$PROJECT_DIR$/dom.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/funzioni.js" beforeDir="false" afterPath="$PROJECT_DIR$/funzioni.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing/jest/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing/jest/package.json" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -33,7 +18,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/iteratori.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
+            <state relative-caret-position="207">
               <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
@@ -69,10 +54,22 @@
         <entry file="file://$PROJECT_DIR$/readme.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="356">
-                <caret line="46" column="2" selection-start-line="46" selection-start-column="2" selection-end-line="46" selection-end-column="2" />
+              <first_editor relative-caret-position="207">
+                <caret line="103" selection-start-line="103" selection-end-line="103" />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/memoizacion.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -193,8 +190,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
-    <option name="width" value="1191" />
+    <option name="x" value="292" />
+    <option name="y" value="335" />
+    <option name="width" value="1205" />
     <option name="height" value="1167" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -203,7 +201,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -215,11 +212,12 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../react" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.HTML" />
   </component>
   <component name="RunDashboard">
@@ -265,7 +263,8 @@
       <workItem from="1550680685646" duration="1707000" />
       <workItem from="1550736171442" duration="7830000" />
       <workItem from="1550821996933" duration="2066000" />
-      <workItem from="1550831990711" duration="4798000" />
+      <workItem from="1550831990711" duration="9309000" />
+      <workItem from="1550842707026" duration="35000" />
     </task>
     <task id="LOCAL-00001" summary="Aggiunto nuovo materiale">
       <created>1550652496872</created>
@@ -498,17 +497,31 @@
       <option name="project" value="LOCAL" />
       <updated>1550834004039</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Ottimizzando la documentazione">
+      <created>1550836807207</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1550836807207</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Migliorata readme">
+      <created>1550842623882</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1550842623882</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54654000" />
+    <option name="totallyTimeSpent" value="59200000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1191" height="1167" extended-state="0" />
+    <frame x="292" y="335" width="1205" height="1167" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16999133" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16795202" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -571,8 +584,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="commenti fetch" />
-    <MESSAGE value="inserito modulo date.js" />
     <MESSAGE value="introduzione jquery" />
     <MESSAGE value="Aggiunto selettore" />
     <MESSAGE value="Ajax" />
@@ -596,7 +607,9 @@
     <MESSAGE value="aggiunto materiale oggetti" />
     <MESSAGE value="Aggiunto progetto che calcola l'assicurazione dell'auto" />
     <MESSAGE value="Progetto assicurazione completato" />
-    <option name="LAST_COMMIT_MESSAGE" value="Progetto assicurazione completato" />
+    <MESSAGE value="Ottimizzando la documentazione" />
+    <MESSAGE value="Migliorata readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="Migliorata readme" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/esercizi/intermedio/creare-input.js">
@@ -713,9 +726,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/async-await.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/async-await.js" />
     <entry file="file://$PROJECT_DIR$/asincronismo.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
@@ -726,9 +737,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bom.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/bom.js" />
     <entry file="file://$PROJECT_DIR$/dom.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="910">
@@ -739,9 +748,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/callback2.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/callback2.js" />
     <entry file="file://$PROJECT_DIR$/callback.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1577">
@@ -755,20 +762,8 @@
     <entry file="file://$PROJECT_DIR$/arrow-function.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/comparazione.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/contesto-di-una-funzione.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/comparazione.js" />
+    <entry file="file://$PROJECT_DIR$/contesto-di-una-funzione.js" />
     <entry file="file://$PROJECT_DIR$/date.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
@@ -869,38 +864,10 @@
     <entry file="file://$PROJECT_DIR$/funzioni-testo.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/iteratori.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/json.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/local-storage.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="483">
           <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/memoizacion.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -929,10 +896,39 @@
     <entry file="file://$PROJECT_DIR$/promise-multiple.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/iteratori.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/json.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/prototipi.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
           <caret line="22" column="51" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/memoizacion.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -949,8 +945,8 @@
     <entry file="file://$PROJECT_DIR$/readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="356">
-            <caret line="46" column="2" selection-start-line="46" selection-start-column="2" selection-end-line="46" selection-end-column="2" />
+          <first_editor relative-caret-position="207">
+            <caret line="103" selection-start-line="103" selection-end-line="103" />
           </first_editor>
           <second_editor />
         </state>
