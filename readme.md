@@ -3,6 +3,7 @@
 ## Introduzione
 - Cos'è Javascript
 - Storia di Javascript 
+- EcmaScript
 - Caratteristiche di Javascript
 - Commenti
 - Variabili e costanti
