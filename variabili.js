@@ -22,4 +22,12 @@ var function
 var 1variabile
 var nome.variabile
 
+Differenze tra let e var cost
+Let permette dichiarare variabili limitando il suo scope
+var permette dichiarare una variabili raggiungibile ovunque
+const permette dichiarare una variabile che non può cambiare il suo valore
+Il punto e virgola (;) è opzionale
+
+Quando dichiariamo una variabile senza assegnargli un valore, gli viene assegnato automaticamente undefined
+
 */

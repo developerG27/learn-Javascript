@@ -8,6 +8,9 @@ Ereditarietà: Una classe può eredare caratteristiche di un altra classe
 Incapsulamento: Una classe definisce le caratteristiche di un oggetto, un metodo define solo come viene eseguito il metodo
 Astrazione:
 Polimorfismo: Differenti classi potrebbero avere gli stessi metodi
+
+Perchè due oggetti siano identicamente uguali (===) devono fare riferimento allo stesso spazio in memoria
+
 */
 
 var sacha = {

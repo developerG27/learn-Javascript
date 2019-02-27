@@ -4,6 +4,11 @@ E' in grado di delegare alcune funzioni ad altri processi
 
 Javascript al suo interno ha una pila di esecuzione chiamata callstack dove andranno le chiamate di esecuzione.
 
+
+Processo Asincrono:
+E' un codice che si sta eseguendo ma non ha ancora terminato di eseguirsi prima che inizi ad eseguirsi un altro codice
+
+
 */
 
 console.log('a')

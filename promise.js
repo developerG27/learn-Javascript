@@ -21,6 +21,8 @@ new Promise( function (resolve, reject){
 }).catch(err => {
   ...
 })
+
+Le promesse sono una forma di eseguire il nostro codice in maniera asincrona evitano che si riprodusca un callback hell
 */
 
 
