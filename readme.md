@@ -51,6 +51,7 @@
 - JSON
 - Nodi
 - Manipolazione
+- Css Object Model
 
 ## Eventi
 - Mouse
@@ -60,23 +61,26 @@
 - Propagazione
 - Traversing
 
+## Browser
+- Windows
+- Location
+- History
+- Browser
+- Timers
+- Date
 
-## Oggetti
-- destructuring
+## Local Storage 
 
-## Classi
-- prototipo
-
-## Json
-
-## Local Storage
-
-## asincronismo
-- ajax
-- fetch
-- callback
-- promesse
-- async Await
+## Asincronismo
+- Protocollo HTTP
+- API
+- XMLHttpRequest
+- Promesse
+- Callback
+- Ajax
+- Fetch
+- Async Await
+- Websocket
 
 
 Perchè jQuery non è più la libreria più adatta
