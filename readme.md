@@ -1,7 +1,7 @@
 # Documentazione Javascript 
 
 ## Introduzione
-- Cos'è Javascript
+- Cos'è Javascript 
 - Storia di Javascript 
 - EcmaScript
 - Caratteristiche di Javascript
