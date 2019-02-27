@@ -4,11 +4,9 @@
 - Cos'è Javascript
 - Storia di Javascript 
 - Caratteristiche di Javascript
+- Commenti
 - Variabili e costanti
 - Tipologia di dati
-
-## Caratteristiche
-- Commenti
 - Operatori
 
 ## Condizionali
@@ -24,9 +22,9 @@
 ## Funzioni
 - parametri
 - tipologie
-- arrow function (funzioni a freccia)
 - this
 - scope
+- arrow function (funzioni a freccia)
 - closures
 
 ## Array
@@ -47,7 +45,6 @@
 
 ## DOM
 - Cos'è il DOM
-- Aggiungere elementi al DOM
 - JSON
 - Nodi
 - Manipolazione
@@ -82,6 +79,11 @@
 - Async Await
 - Websocket
 
+## Librerie e Framework
+- Jquery
+- Angular
+- React
+
 
 Perchè jQuery non è più la libreria più adatta
 A causa dell'abuso di questa libreria, in quanto veniva usato quando realmente non era necessario
@@ -108,17 +110,7 @@ undefined
 oggetti
 
 
-
-
-
 Terminare un istruzione con il punto e virgola in Javascript non è obbligatorio
-
-
-
-
-
-
-
 
 
 # Link di referenza 
@@ -126,7 +118,6 @@ Terminare un istruzione con il punto e virgola in Javascript non è obbligatorio
 - https://github.com/getify/You-Dont-Know-JS/blob/master/up%20%26%20going/ch1.md
 
 Libri:  https://jsparagatos.com/
-
 
 Javascript è case sensitive ossia fa distinzione tra maiuscole e minuscole
 Javascript è un linguaggio interpretato
