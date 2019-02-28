@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="971c59b8-2174-46b8-a05b-a4b3c39452b1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cos'è-javascript.js" beforeDir="false" afterPath="$PROJECT_DIR$/cos'è-javascript.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/variabili.js" beforeDir="false" afterPath="$PROJECT_DIR$/variabili.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -30,12 +28,12 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/readme.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="598">
-                <caret line="26" column="7" selection-start-line="26" selection-start-column="2" selection-end-line="26" selection-end-column="7" />
+              <first_editor relative-caret-position="161">
+                <caret line="7" column="10" lean-forward="true" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
               </first_editor>
               <second_editor />
             </state>
@@ -56,11 +54,32 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cos'è-javascript.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="598">
-              <caret line="154" column="28" lean-forward="true" selection-start-line="154" selection-start-column="28" selection-end-line="154" selection-end-column="28" />
+            <state relative-caret-position="851">
+              <caret line="150" column="59" lean-forward="true" selection-start-line="150" selection-start-column="59" selection-end-line="150" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/loop.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="575">
+              <caret line="42" column="41" selection-start-line="42" selection-start-column="41" selection-end-line="42" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/callback.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="851">
+              <caret line="103" column="85" selection-start-line="103" selection-start-column="85" selection-end-line="103" selection-end-column="85" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -78,15 +97,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/oggetto.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/promise.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="584">
@@ -94,15 +104,6 @@
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/asincronismo.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -226,13 +227,14 @@
         <option value="$PROJECT_DIR$/promise.js" />
         <option value="$PROJECT_DIR$/oggetto.js" />
         <option value="$PROJECT_DIR$/prototipi.js" />
-        <option value="$PROJECT_DIR$/readme.md" />
         <option value="$PROJECT_DIR$/variabili.js" />
         <option value="$PROJECT_DIR$/cos'è-javascript.js" />
+        <option value="$PROJECT_DIR$/loop.js" />
+        <option value="$PROJECT_DIR$/readme.md" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
     <option name="width" value="1245" />
     <option name="height" value="1167" />
@@ -259,7 +261,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../template" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.HTML" />
   </component>
   <component name="RunDashboard">
@@ -307,7 +309,7 @@
       <workItem from="1550821996933" duration="2066000" />
       <workItem from="1550831990711" duration="9309000" />
       <workItem from="1550842707026" duration="35000" />
-      <workItem from="1551263233333" duration="18082000" />
+      <workItem from="1551263233333" duration="19408000" />
     </task>
     <task id="LOCAL-00001" summary="Aggiunto nuovo materiale">
       <created>1550652496872</created>
@@ -596,11 +598,18 @@
       <option name="project" value="LOCAL" />
       <updated>1551279607897</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="sezione variabili">
+      <created>1551286136674</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1551286136674</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77282000" />
+    <option name="totallyTimeSpent" value="78608000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1245" height="1167" extended-state="0" />
@@ -669,7 +678,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Sezione iteratori" />
     <MESSAGE value="oggetto window" />
     <MESSAGE value="sezione scripting" />
     <MESSAGE value="Aggiunto materiale in scripting" />
@@ -694,7 +702,8 @@
     <MESSAGE value="Storia di Javascript" />
     <MESSAGE value="ecmascript es6" />
     <MESSAGE value="caratteristiche" />
-    <option name="LAST_COMMIT_MESSAGE" value="caratteristiche" />
+    <MESSAGE value="sezione variabili" />
+    <option name="LAST_COMMIT_MESSAGE" value="sezione variabili" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/esercizi/semplici/giorni-passati-dalla-nascita.html">
@@ -800,16 +809,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/callback2.js" />
-    <entry file="file://$PROJECT_DIR$/callback.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1577">
-          <caret line="103" column="85" selection-start-line="103" selection-start-column="85" selection-end-line="103" selection-end-column="85" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/comparazione.js" />
     <entry file="file://$PROJECT_DIR$/contesto-di-una-funzione.js" />
     <entry file="file://$PROJECT_DIR$/date.js">
@@ -934,13 +933,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/loop.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="828">
-          <caret line="36" column="29" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/this.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
@@ -1005,16 +997,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="598">
-            <caret line="26" column="7" selection-start-line="26" selection-start-column="2" selection-end-line="26" selection-end-column="7" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/variabili.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
@@ -1027,8 +1009,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cos'è-javascript.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="154" column="28" lean-forward="true" selection-start-line="154" selection-start-column="28" selection-end-line="154" selection-end-column="28" />
+        <state relative-caret-position="851">
+          <caret line="150" column="59" lean-forward="true" selection-start-line="150" selection-start-column="59" selection-end-line="150" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/callback.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="851">
+          <caret line="103" column="85" selection-start-line="103" selection-start-column="85" selection-end-line="103" selection-end-column="85" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loop.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="42" column="41" selection-start-line="42" selection-start-column="41" selection-end-line="42" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="161">
+            <caret line="7" column="10" lean-forward="true" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

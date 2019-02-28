@@ -23,8 +23,8 @@
 ## Funzioni
 - parametri
 - tipologie
-- this
 - scope
+- this
 - arrow function (funzioni a freccia)
 - closures
 
