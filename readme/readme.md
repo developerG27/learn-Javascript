@@ -2,7 +2,7 @@
 
 ## Introduzione
 - Cos'è Javascript *
-- Storia di Javascript 
+- Storia di Javascript *
 - EcmaScript
 - Caratteristiche di Javascript
 - Commenti
