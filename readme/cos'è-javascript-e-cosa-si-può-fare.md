@@ -18,3 +18,16 @@ Il codice per stampare un semplice "Hello world"
 ```javascript
 console.log('hello world')
 ```
+
+Caratteristiche
+E' un linguaggio di programmazione multi paradigma, questo vuol dire che può essere:
+- Orientato ad oggetti basato su prototipi (il più comune)
+- Funzionale
+- Interpretato
+- Imperativo
+Non ha bisogno di essere compilato in quanto viene interpretato dal browser,
+Non è obbligatorio inserire il punto e virgola
+E' debolmente tipicizzato, ossia non bisogna dichiarare il tipo della variabile
+console.log('hello world')
+NaN : not a number
+Non è uguale a niente, nemmeno a se stesso
