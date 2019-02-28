@@ -1,19 +1,19 @@
 # Documentazione Javascript 
 
 ## Introduzione
-- Cos'è Javascript 
+- Cos'è Javascript *
 - Storia di Javascript 
 - EcmaScript
 - Caratteristiche di Javascript
 - Commenti
 - Variabili e costanti
 - Tipologia di dati
-- Operatori
+- Gli operatori
 
 ## Condizionali
 - Classici
 - Multipli e annidati
-- switch
+- Switch
 
 ## Ciclo
 - for
