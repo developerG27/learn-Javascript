@@ -17,4 +17,12 @@ class Forma{
     `
   }
 }
-let forma1 = new Forma(220,400,"red")
+
+
+//Creare una classe per disegnare un Quadrato
+class Quadrato extends Forma{
+  constructor(lato, colore){
+    super(lato, lato, colore)
+  }
+}
+let figuraQuadrata = new Quadrato(400, 'green')
