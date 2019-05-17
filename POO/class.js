@@ -1,13 +1,34 @@
 class Usuario {
-  constructor(nombre, apellido, correo, edad){
-    this.nombre = nombre
-    this.apellido = apellido
-    this.correo = correo
-    this.edad = edad
+  constructor(nome, cognome, email, eta){
+    this.nome = nome
+    this.cognome = cognome
+    this.email = email
+    this.eta = eta
+  }
+
+  saludar(){
+    return console.log(`Ciao mi chiamo ${this.nome}`)
   }
 }
 
-let beto = new Usuario('Gian', 'Cognome','gian.pumayalla@gmail.com',23);
+let gian = new Usuario('Gian', 'Cognome','gian.pumayalla@gmail.com',23)
+console.log(gian)
 
+class Professore extends Usuario{
+  constructor(nome, cognome, email, eta, esperienza, linguaggi){
+    super(nome, cognome, email, eta)
+    this.linguaggi = linguaggi
+    this.esperienza = esperienza
+  }
+}
 
-console.log(beto);
+class Estudiante extends Usuario{
+  constructor(nome, cognome, email, eta, attivo, ){
+    super(nome, cognome, email, eta)
+    this.attivo = attivo
+  }
+}
+
+let fernand = new Professore('Fernand','Guzman','fernan@gmail.com',33, 13, 'Javascript ')
+
+console.log(fernand);
