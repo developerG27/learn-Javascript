@@ -26,3 +26,6 @@ class Quadrato extends Forma{
   }
 }
 let figuraQuadrata = new Quadrato(400, 'green')
+
+
+//Creare una classe per disegnare un Rotondo
