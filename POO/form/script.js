@@ -22,6 +22,6 @@ form1.addEventListener('submit', e =>{
     email,
     password
   )
-
+    
   console.log(utente);
 });
