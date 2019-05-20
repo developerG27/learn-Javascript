@@ -1,0 +1,19 @@
+{
+  "nome": "Gian",
+  "cognome": "Pumayalla",
+  "year": 23,
+  "corsi" : [
+    {
+      "id": 5,
+      "nome": "React"
+    },
+    {
+      "id": 19,
+      "nome": "Redux"
+    },
+    {
+      "id": 55,
+      "nome": "Javascript"
+    }
+  ]
+}
