@@ -1,27 +1,22 @@
 const title = document.getElementById('title')
 
-const azione = e => console.log(e.target.textContent);
-
 //Doppio click
-title.addEventListener('dblclick', e => {
-  azione(e)
+title.addEventListener('dblclick', () => {
   console.log('Ho fatto doppio click');
 })
 
 //Il mouse entra nell'elemento
-title.addEventListener('mouseenter', e => {
-  azione(e)
+title.addEventListener('mouseenter', () => {
   console.log("Sono dentro l'elemento");
 })
 
 //Il mouse esce dall'elemento
-title.addEventListener('mouseleave', e => {
-  azione(e)
+title.addEventListener('mouseleave', () => {
   console.log("Sono uscito dall'elemento");
 })
 
-title.addEventListener('contextmenu', e => {
-  azione(e)
+//Al click destro del mouse
+title.addEventListener('contextmenu', () => {
   console.log('è stato premuto il tasto destro');
   e.preventDefault(); //Permette cancellare l'elevento che sarebbe partito di default
 })
