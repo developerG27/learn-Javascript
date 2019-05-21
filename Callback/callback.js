@@ -1,26 +1,12 @@
-const city = ['London','New York','Madrid','Paris','Sidney']
+function somma(a,b,callback){
+  return callback(a+b)
+}
 
-//Callaback inline
-city.forEach((city) => {
-  console.log(city)
+document.getElementById('operator').addEventListener('click', () => {
+  var a = parseInt(document.getElementById('a').value)
+  var b = parseInt(document.getElementById('b').value)
+
+  somma(a,b, function (r){
+    console.log(`il risultato è  ${r} `);
+  })
 })
-
-//Si aggiungono nuovi paesi dopo 2 secondi
-function newCity(city){
-  setTimeout(function(){
-    city.push(city)
-  },2000)
-}
-
-//I paesi si mostrano dopo 1 secondo
-function showCity(){
-  setTimeout(() => {
-    let html = '';
-    city.forEach((city) => {
-      html +=`<li>${city}</li>`
-    })
-    document.getElementById('app').innerHTML = html
-  },1000)
-}
-
-showCity();
