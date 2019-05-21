@@ -1,6 +1,4 @@
 /*
-I callback avevano il problema di annidazione, per questo sono nate le promesse
-Prima era necessario usare librerie esterne ma ora la maggior parte dei browser supportano le promesse, se vogliamo verificare se le promesse sono supportate dal nostro utente possiamo usare 'polifield'.
 Questo capisce se il browser supporta le promesse e se non le supporta crea la classe della promessa.
 
 Doddiamo pensare alle promesse come valori che ancora non conosciamo, è la promessa di un azione asincrona succeda e ritorni.
