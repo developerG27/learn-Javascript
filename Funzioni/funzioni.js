@@ -33,7 +33,6 @@ function tramiteWrite(nome) {
 
 function saluto(
 
-'gian', true
 )
 
 /*
