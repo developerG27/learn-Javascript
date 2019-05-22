@@ -7,6 +7,6 @@ document.getElementById('operator').addEventListener('click', () => {
   var b = parseInt(document.getElementById('b').value)
 
   somma(a,b, function (r){
-    console.log(`il risultato è  ${r} `);
+    console.log(`il risultato è  ${r}`);
   })
 })
