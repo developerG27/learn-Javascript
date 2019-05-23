@@ -5,9 +5,11 @@ const description = document.querySelector('p')
 title.style.color = 'blue'
 
 
+//dichiaro il media query
 const mediumBp = matchMedia('(min-width: 640px) and (orientation: portrait)')
 console.log(mediumBp);
 
+//Condizionale 
 const changeColor = () =>{
   if(mediumBp.matches){
     document.body.style.background = 'red'
@@ -16,5 +18,8 @@ const changeColor = () =>{
   }
 }
 
+//qunado il dom si carica fai partire la funzione
 addEventListener('DOMContentLoaded',changeColor)
+
+//Quando si ridimensiona la finestra fai partire la funzione
 addEventListener('resize', changeColor)
