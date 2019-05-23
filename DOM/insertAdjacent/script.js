@@ -17,7 +17,6 @@ parent.insertAdjacentElement('beforeend', ad)
 //dopo che finise l'elemento
 parent.insertAdjacentElement('afterend', ad)
 
-
-
 //rimpiazza l'elemento figlio: nuovo, vecchio
 parent.replaceChild(ad, parent.children[0])
+
