@@ -23,3 +23,11 @@ addEventListener('DOMContentLoaded',changeColor)
 
 //Quando si ridimensiona la finestra fai partire la funzione
 addEventListener('resize', changeColor)
+
+
+//Ti permette ricevere i valori di stili di un elemento
+console.log(getComputedStyle(title).display);
+
+
+
+
