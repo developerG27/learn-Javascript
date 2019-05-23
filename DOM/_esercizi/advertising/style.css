@@ -1,6 +1,7 @@
 #js{
-  background: yellow;
-  height: 100px;
   text-align: center;
   margin: 1em 0;
+  background: red;
+  color: #fff;
+  padding: 3em;
 }

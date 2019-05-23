@@ -2,7 +2,7 @@
 const post = document.getElementById('post') //seleziono il contenitore
 const ad = document.createElement('div') //creo un div
 ad.id = 'js' //aggiungo un id al div
-ad.textContent = 'Publicidad' //aggiungo il testo
+ad.textContent = 'Pubblicità' //aggiungo il testo
 
 const getMiddleChild = element => { //funzione che prende il figlio centrale
   const childs = element.children //prende la lista dei figli
