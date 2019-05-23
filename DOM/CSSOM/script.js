@@ -28,6 +28,10 @@ addEventListener('resize', changeColor)
 //Ti permette ricevere i valori di stili di un elemento
 console.log(getComputedStyle(title).display);
 
+//Permette sapere le cordinate di un elemento
+console.log(title.getBoundingClientRect());
+
+
 
 
 
