@@ -1,9 +1,12 @@
 const parent = document.getElementById('parent')
-const grandson = document.getElementById('grandson-2')
+
+console.log(parent.children) //Tutti i figli di parent
+
+console.log(parent.hasChildNodes()) //ritorna true perchè ha figli
 
 
-console.log(parent.children); //Tutti i figli di parent
+const newElement = document.createElement('h2') //creo nuovo elemento h2
+newElement.textContent = 'Sono un nuovo elemento' //cambio il testo
+parent.appendChild(newElement) //aggiunto a parent il nuovo elemento
 
-console.log(parent.hasChildNodes()); //ritorna true perchè ha figli
-
-console.log(granson.parentElement()); //permette salire di livello
+//parent.insertBefore(nuovo)
