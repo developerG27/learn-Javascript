@@ -4,16 +4,18 @@ const l = document.getElementById('loading')
 
 l.style.display = 'none'
 
-b.addEventListener('click', e => {
+b.addEventListener('click', evt => {
   l.style.display = 'block'
   
   const xhr = new XMLHttpRequest();
-  xhr.open('GET','/json', true)
+  xhr.open('GET','./data.json', true)
 
   //Cosa bisogna fare con i dati?
   xhr.addEventListener('load', e => {
+    console.log(e.target.responseText);
     const data = JSON.parse(e.target.responseText)
     draw(data)
+    console.log(data);
 
     l.style.display = 'none'
   })
@@ -31,7 +33,7 @@ const draw = data => {
 
     title.textContent = n.Titulo
     content.textContent = n.Contenido
-    datenew.textContent = n.Fecha
+    datenew.textContet = n.Fecha
 
     container.appendChild(title)
     container.appendChild(content)
